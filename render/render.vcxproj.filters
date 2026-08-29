@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{1A000000-0000-0000-0000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{1A000000-0000-0000-0000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{1A000000-0000-0000-0000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{1A000000-0000-0000-0000-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xdraw">
+      <UniqueIdentifier>{1A000000-0000-0000-0000-000000000005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xdraw\xui">
+      <UniqueIdentifier>{1A000000-0000-0000-0000-000000000006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xdraw\dependencies">
+      <UniqueIdentifier>{1A000000-0000-0000-0000-000000000007}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch\pch.hpp">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\fonts.hpp">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\fonts.hpp">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="xdraw\xdraw.hpp">
+      <Filter>xdraw</Filter>
+    </ClInclude>
+    <ClInclude Include="xdraw\xui\xui.hpp">
+      <Filter>xdraw\xui</Filter>
+    </ClInclude>
+    <ClInclude Include="xdraw\dependencies\fonts.hpp">
+      <Filter>xdraw\dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="xdraw\dependencies\shaders.hpp">
+      <Filter>xdraw\dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="xdraw\dependencies\freetype\include.hpp">
+      <Filter>xdraw\dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="xdraw\dependencies\nanosvg\include.hpp">
+      <Filter>xdraw\dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\config\ftconfig.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\config\ftheader.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\config\ftmodule.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\config\ftoption.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\config\ftstdlib.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\config\integer-types.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\config\mac-support.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\config\public-macros.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\freetype.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftadvanc.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftbbox.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftbdf.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftbitmap.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftbzip2.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftcache.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftchapters.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftcid.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftcolor.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftdriver.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\fterrdef.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\fterrors.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftfntfmt.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftgasp.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftglyph.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftgxval.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftgzip.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftimage.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftincrem.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftlcdfil.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftlist.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftlogging.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftlzw.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftmac.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftmm.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftmodapi.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftmoderr.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftotval.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftoutln.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftparams.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftpfr.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftrender.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftsizes.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftsnames.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftstroke.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftsynth.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftsystem.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\fttrigon.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\fttypes.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ftwinfnt.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\otsvg.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\t1tables.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\ttnameid.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\tttables.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\freetype\tttags.h" />
+    <ClInclude Include="xdraw\dependencies\freetype\x\ft2build.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="rendering\fonts.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="xdraw\xdraw.cpp">
+      <Filter>xdraw</Filter>
+    </ClCompile>
+    <ClCompile Include="xdraw\xui\xui.cpp">
+      <Filter>xdraw\xui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="xdraw\dependencies\freetype\x\freetype.lib" />
+  </ItemGroup>
+</Project>
